@@ -1,0 +1,3 @@
+D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\Definitions.YarnCats.h
+D:\Documents\Unreal Projects\YarnCats\Source\YarnCats\YarnBase.h
+D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Inc\YarnCats\YarnBase.generated.h

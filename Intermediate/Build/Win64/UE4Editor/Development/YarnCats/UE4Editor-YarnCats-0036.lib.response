@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-YarnCats-0036.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\YarnCatsEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\BallBase.cpp.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\CatBase.cpp.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\YarnBase.cpp.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\YarnCats.cpp.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\YarnCatsGameModeBase.cpp.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\CatBase.gen.cpp.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\YarnBase.gen.cpp.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\YarnCats.init.gen.cpp.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\YarnCatsGameModeBase.gen.cpp.obj"
+"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\Default.rc2.res"
+/OUT:"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\UE4Editor-YarnCats-0036.lib"

@@ -1,0 +1,5 @@
+D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Development\YarnCats\Definitions.YarnCats.h
+D:\Unreal Engine 4\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Unreal Engine 4\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\Documents\Unreal Projects\YarnCats\Source\YarnCats/YarnBase.h
+D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4Editor\Inc\YarnCats\YarnBase.generated.h

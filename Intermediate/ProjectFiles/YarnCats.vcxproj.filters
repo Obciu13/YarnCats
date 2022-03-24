@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\YarnCats.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A5B427D8-2D0E-480E-80A9-504CA7ACA4A5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\YarnCats.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\YarnCatsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9460A394-D252-49D6-BAE3-EA8E64DF73F8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\YarnCats">
+      <UniqueIdentifier>{832EFF2C-B3EC-4C43-B353-264A9BCC7DDA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\YarnCats\BallBase.cpp">
+      <Filter>Source\YarnCats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\YarnCats\BallBase.h">
+      <Filter>Source\YarnCats</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\YarnCats\CatBase.cpp">
+      <Filter>Source\YarnCats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\YarnCats\CatBase.h">
+      <Filter>Source\YarnCats</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\YarnCats\YarnBase.cpp">
+      <Filter>Source\YarnCats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\YarnCats\YarnBase.h">
+      <Filter>Source\YarnCats</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\YarnCats\YarnCats.Build.cs">
+      <Filter>Source\YarnCats</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\YarnCats\YarnCats.cpp">
+      <Filter>Source\YarnCats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\YarnCats\YarnCats.h">
+      <Filter>Source\YarnCats</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\YarnCats\YarnCatsGameModeBase.cpp">
+      <Filter>Source\YarnCats</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\YarnCats\YarnCatsGameModeBase.h">
+      <Filter>Source\YarnCats</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

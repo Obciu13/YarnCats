@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "YarnCats",
+			"Path": "D:\\Documents\\Unreal Projects\\YarnCats\\Source\\YarnCats.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "YarnCatsEditor",
+			"Path": "D:\\Documents\\Unreal Projects\\YarnCats\\Source\\YarnCatsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

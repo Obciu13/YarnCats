@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Documents\\Unreal Projects\\YarnCats\\Source\\YarnCats\\YarnCats.Build.cs",
+		"D:\\Documents\\Unreal Projects\\YarnCats\\Source\\YarnCats.Target.cs",
+		"D:\\Documents\\Unreal Projects\\YarnCats\\Source\\YarnCatsEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.1"
+}
