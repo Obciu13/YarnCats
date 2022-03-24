@@ -131,8 +131,6 @@ void ACatBase::StartJump()
 {
 	IsJumping = true;
 	Jump();
-	//FTimerHandle JumpTimer = GetWorldTimerManager().GenerateHandle(0);
-	//GetWorldTimerManager().SetTimer(JumpTimer, this, &ACatBase::Jump, 0.5, false);
 }
 
 void ACatBase::StopJump()
@@ -216,6 +214,8 @@ void ACatBase::FinishPushForward()
 		FVector PushDirection = GetActorForwardVector();
 		SelectedYarn->Roll(PushDirection, PushForce);
 		ReleaseSelected();
+		PushDirectionMode = "Forward";
+		Push();
 	}
 
 	PushForce = 0;
@@ -242,6 +242,8 @@ void ACatBase::FinishPushRight()
 		FVector PushDirection = GetActorRightVector();
 		SelectedYarn->Roll(PushDirection, PushForce);
 		ReleaseSelected();
+		PushDirectionMode = "Right";
+		Push();
 	}
 
 	PushForce = 0;
@@ -267,7 +269,11 @@ void ACatBase::FinishPushLeft()
 		FVector PushDirection = - GetActorRightVector();
 		SelectedYarn->Roll(PushDirection, PushForce);
 		ReleaseSelected();
+		PushDirectionMode = "Left";
+		Push();
 	}
 
 	PushForce = 0;
 }
+
+

@@ -48,6 +48,11 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 		P_THIS->ReleaseSelected_Implementation();
 		P_NATIVE_END;
 	}
+	static FName NAME_ACatBase_Push = FName(TEXT("Push"));
+	void ACatBase::Push()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ACatBase_Push),NULL);
+	}
 	static FName NAME_ACatBase_ReleaseSelected = FName(TEXT("ReleaseSelected"));
 	void ACatBase::ReleaseSelected()
 	{
@@ -78,6 +83,28 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 			{ "StartPushRight", &ACatBase::execStartPushRight },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ACatBase_Push_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACatBase_Push_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "CatBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACatBase_Push_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACatBase, nullptr, "Push", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACatBase_Push_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ACatBase_Push_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACatBase_Push()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACatBase_Push_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ACatBase_ReleaseSelected_Statics
 	{
@@ -196,6 +223,15 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 		static void NewProp_IsJumping_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsJumping;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsPushing_MetaData[];
+#endif
+		static void NewProp_IsPushing_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsPushing;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PushDirectionMode_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_PushDirectionMode;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SelectedYarn_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SelectedYarn;
@@ -225,6 +261,7 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_YarnCats,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACatBase_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ACatBase_Push, "Push" }, // 2238530592
 		{ &Z_Construct_UFunction_ACatBase_ReleaseSelected, "ReleaseSelected" }, // 3969132208
 		{ &Z_Construct_UFunction_ACatBase_StartPushForward, "StartPushForward" }, // 3431194327
 		{ &Z_Construct_UFunction_ACatBase_StartPushLeft, "StartPushLeft" }, // 628328131
@@ -270,6 +307,24 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACatBase_Statics::NewProp_IsJumping = { "IsJumping", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ACatBase), &Z_Construct_UClass_ACatBase_Statics::NewProp_IsJumping_SetBit, METADATA_PARAMS(Z_Construct_UClass_ACatBase_Statics::NewProp_IsJumping_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACatBase_Statics::NewProp_IsJumping_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACatBase_Statics::NewProp_IsPushing_MetaData[] = {
+		{ "Category", "Cat" },
+		{ "ModuleRelativePath", "CatBase.h" },
+	};
+#endif
+	void Z_Construct_UClass_ACatBase_Statics::NewProp_IsPushing_SetBit(void* Obj)
+	{
+		((ACatBase*)Obj)->IsPushing = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACatBase_Statics::NewProp_IsPushing = { "IsPushing", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ACatBase), &Z_Construct_UClass_ACatBase_Statics::NewProp_IsPushing_SetBit, METADATA_PARAMS(Z_Construct_UClass_ACatBase_Statics::NewProp_IsPushing_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACatBase_Statics::NewProp_IsPushing_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACatBase_Statics::NewProp_PushDirectionMode_MetaData[] = {
+		{ "Category", "Cat" },
+		{ "ModuleRelativePath", "CatBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_ACatBase_Statics::NewProp_PushDirectionMode = { "PushDirectionMode", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACatBase, PushDirectionMode), METADATA_PARAMS(Z_Construct_UClass_ACatBase_Statics::NewProp_PushDirectionMode_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACatBase_Statics::NewProp_PushDirectionMode_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACatBase_Statics::NewProp_SelectedYarn_MetaData[] = {
 		{ "Category", "Yarn" },
 		{ "ModuleRelativePath", "CatBase.h" },
@@ -313,6 +368,8 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_BaseLookAtRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_MaxSprintSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_IsJumping,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_IsPushing,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_PushDirectionMode,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_SelectedYarn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_PushForce,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_MaxPushForce,
@@ -346,7 +403,7 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACatBase, 895945250);
+	IMPLEMENT_CLASS(ACatBase, 1988651016);
 	template<> YARNCATS_API UClass* StaticClass<ACatBase>()
 	{
 		return ACatBase::StaticClass();

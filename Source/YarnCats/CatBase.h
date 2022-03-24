@@ -62,6 +62,9 @@ public:
 	void StartPushLeft();
 	void FinishPushLeft();
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void Push();
+
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cat")
@@ -72,6 +75,11 @@ public:
 		float MaxSprintSpeed = 1200.0;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cat")
 		bool IsJumping;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cat")
+		bool IsPushing;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cat")
+		FString PushDirectionMode;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Yarn")
 		AYarnBase* SelectedYarn;
