@@ -85,7 +85,7 @@ public:
 		AYarnBase* SelectedYarn;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cats")
-		float PushForce;
+		float PushForce = 1000.f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cats")
 		float MaxPushForce;

@@ -130,6 +130,8 @@ void ACatBase::LookUpRate(float Value)
 void ACatBase::StartJump()
 {
 	IsJumping = true;
+//	FTimerHandle JumpHandle = GetWorldTimerManager().GenerateHandle(0);
+	//GetWorldTimerManager().SetTimer(JumpHandle, this, &ACatBase::Jump, 0.1f, false);
 	Jump();
 }
 
@@ -149,7 +151,7 @@ void ACatBase::SelectYarn()
 {
 	FHitResult OutHit;
 	FVector Start = GetActorLocation();
-	FVector End = (GetActorForwardVector() * 100.f) + Start;
+	FVector End = (GetActorForwardVector() * 200.f) + Start;
 	FCollisionQueryParams CollisionParams;
 
 	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
@@ -164,9 +166,8 @@ void ACatBase::SelectYarn()
 				FRotator CurrentRotation = GetActorRotation();
 				FRotator FaceTargetRotation = UKismetMathLibrary::FindLookAtRotation(GetActorLocation(), SelectedYarn->GetRootComponent()->GetComponentLocation());
 				AddControllerYawInput((FaceTargetRotation.Yaw - CurrentRotation.Yaw)/2);
-				UE_LOG(LogTemp, Warning, TEXT("Current YAW, %f"), CurrentRotation.Yaw);
-				UE_LOG(LogTemp, Warning, TEXT("Target YAW, %f"), FaceTargetRotation.Yaw);
 				GetCharacterMovement()->Deactivate();
+				SelectedYarn->StopRolling();
 			}
 		}
 	}
@@ -218,7 +219,7 @@ void ACatBase::FinishPushForward()
 		Push();
 	}
 
-	PushForce = 0;
+	PushForce = 1000.f;
 }
 
 

@@ -32,3 +32,10 @@ void AYarnBase::Roll(FVector Direction, float Force)
 	GetMeshComponent()->AddImpulseAtLocation(Direction * Force, GetActorLocation());
 }
 
+void AYarnBase::StopRolling()
+{
+	GetMeshComponent()->SetMobility(EComponentMobility::Static);
+	UE_LOG(LogTemp, Warning, TEXT("Static"));
+	GetMeshComponent()->SetMobility(EComponentMobility::Movable);
+	
+}

@@ -24,6 +24,8 @@ public:
 
 	void Roll(FVector Direction, float Force);
 
+	void StopRolling();
+
 
 protected:
 	// Called when the game starts or when spawned
