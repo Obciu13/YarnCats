@@ -13,10 +13,34 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define YARNCATS_CatBase_generated_h
 
-#define YarnCats_Source_YarnCats_CatBase_h_14_SPARSE_DATA
-#define YarnCats_Source_YarnCats_CatBase_h_14_RPC_WRAPPERS
-#define YarnCats_Source_YarnCats_CatBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define YarnCats_Source_YarnCats_CatBase_h_14_INCLASS_NO_PURE_DECLS \
+#define YarnCats_Source_YarnCats_CatBase_h_15_SPARSE_DATA
+#define YarnCats_Source_YarnCats_CatBase_h_15_RPC_WRAPPERS \
+	virtual void StartPushLeft_Implementation(); \
+	virtual void StartPushRight_Implementation(); \
+	virtual void StartPushForward_Implementation(); \
+	virtual void ReleaseSelected_Implementation(); \
+ \
+	DECLARE_FUNCTION(execStartPushLeft); \
+	DECLARE_FUNCTION(execStartPushRight); \
+	DECLARE_FUNCTION(execStartPushForward); \
+	DECLARE_FUNCTION(execReleaseSelected);
+
+
+#define YarnCats_Source_YarnCats_CatBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	virtual void StartPushLeft_Implementation(); \
+	virtual void StartPushRight_Implementation(); \
+	virtual void StartPushForward_Implementation(); \
+	virtual void ReleaseSelected_Implementation(); \
+ \
+	DECLARE_FUNCTION(execStartPushLeft); \
+	DECLARE_FUNCTION(execStartPushRight); \
+	DECLARE_FUNCTION(execStartPushForward); \
+	DECLARE_FUNCTION(execReleaseSelected);
+
+
+#define YarnCats_Source_YarnCats_CatBase_h_15_EVENT_PARMS
+#define YarnCats_Source_YarnCats_CatBase_h_15_CALLBACK_WRAPPERS
+#define YarnCats_Source_YarnCats_CatBase_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACatBase(); \
 	friend struct Z_Construct_UClass_ACatBase_Statics; \
@@ -25,7 +49,7 @@ public: \
 	DECLARE_SERIALIZER(ACatBase)
 
 
-#define YarnCats_Source_YarnCats_CatBase_h_14_INCLASS \
+#define YarnCats_Source_YarnCats_CatBase_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesACatBase(); \
 	friend struct Z_Construct_UClass_ACatBase_Statics; \
@@ -34,7 +58,7 @@ public: \
 	DECLARE_SERIALIZER(ACatBase)
 
 
-#define YarnCats_Source_YarnCats_CatBase_h_14_STANDARD_CONSTRUCTORS \
+#define YarnCats_Source_YarnCats_CatBase_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACatBase(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACatBase) \
@@ -47,7 +71,7 @@ private: \
 public:
 
 
-#define YarnCats_Source_YarnCats_CatBase_h_14_ENHANCED_CONSTRUCTORS \
+#define YarnCats_Source_YarnCats_CatBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACatBase(ACatBase&&); \
@@ -58,32 +82,33 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACatBase)
 
 
-#define YarnCats_Source_YarnCats_CatBase_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CameraComp() { return STRUCT_OFFSET(ACatBase, CameraComp); } \
-	FORCEINLINE static uint32 __PPO__Body() { return STRUCT_OFFSET(ACatBase, Body); }
+#define YarnCats_Source_YarnCats_CatBase_h_15_PRIVATE_PROPERTY_OFFSET
+#define YarnCats_Source_YarnCats_CatBase_h_12_PROLOG \
+	YarnCats_Source_YarnCats_CatBase_h_15_EVENT_PARMS
 
 
-#define YarnCats_Source_YarnCats_CatBase_h_11_PROLOG
-#define YarnCats_Source_YarnCats_CatBase_h_14_GENERATED_BODY_LEGACY \
+#define YarnCats_Source_YarnCats_CatBase_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	YarnCats_Source_YarnCats_CatBase_h_14_PRIVATE_PROPERTY_OFFSET \
-	YarnCats_Source_YarnCats_CatBase_h_14_SPARSE_DATA \
-	YarnCats_Source_YarnCats_CatBase_h_14_RPC_WRAPPERS \
-	YarnCats_Source_YarnCats_CatBase_h_14_INCLASS \
-	YarnCats_Source_YarnCats_CatBase_h_14_STANDARD_CONSTRUCTORS \
+	YarnCats_Source_YarnCats_CatBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	YarnCats_Source_YarnCats_CatBase_h_15_SPARSE_DATA \
+	YarnCats_Source_YarnCats_CatBase_h_15_RPC_WRAPPERS \
+	YarnCats_Source_YarnCats_CatBase_h_15_CALLBACK_WRAPPERS \
+	YarnCats_Source_YarnCats_CatBase_h_15_INCLASS \
+	YarnCats_Source_YarnCats_CatBase_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define YarnCats_Source_YarnCats_CatBase_h_14_GENERATED_BODY \
+#define YarnCats_Source_YarnCats_CatBase_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	YarnCats_Source_YarnCats_CatBase_h_14_PRIVATE_PROPERTY_OFFSET \
-	YarnCats_Source_YarnCats_CatBase_h_14_SPARSE_DATA \
-	YarnCats_Source_YarnCats_CatBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	YarnCats_Source_YarnCats_CatBase_h_14_INCLASS_NO_PURE_DECLS \
-	YarnCats_Source_YarnCats_CatBase_h_14_ENHANCED_CONSTRUCTORS \
+	YarnCats_Source_YarnCats_CatBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	YarnCats_Source_YarnCats_CatBase_h_15_SPARSE_DATA \
+	YarnCats_Source_YarnCats_CatBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	YarnCats_Source_YarnCats_CatBase_h_15_CALLBACK_WRAPPERS \
+	YarnCats_Source_YarnCats_CatBase_h_15_INCLASS_NO_PURE_DECLS \
+	YarnCats_Source_YarnCats_CatBase_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeYarnCats_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x80696D14,
-				0x60113FC2,
+				0xBDDAC2BA,
+				0x20AE16D9,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

@@ -117,8 +117,8 @@
 /I Developer\TargetPlatform\Public
 /I ..\Intermediate\Build\Win64\UE4\Inc\AnimationCore
 /I Runtime\AnimationCore\Public
-/I "D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4\Inc\YarnCats"
-/I "D:\Documents\Unreal Projects\YarnCats\Source"
+/I "D:\Documents\Unreal Projects\YarnCats\YarnCats\Intermediate\Build\Win64\UE4\Inc\YarnCats"
+/I "D:\Documents\Unreal Projects\YarnCats\YarnCats\Source"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -148,12 +148,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\YarnCats\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\YarnCats\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\YarnCats\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4\Inc\YarnCats\CatBase.gen.cpp"
-/FI"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4\Development\YarnCats\Definitions.YarnCats.h"
-/Fo"D:\Documents\Unreal Projects\YarnCats\Intermediate\Build\Win64\UE4\Development\YarnCats\CatBase.gen.cpp.obj"
+/FI"D:\Documents\Unreal Projects\YarnCats\YarnCats\Intermediate\Build\Win64\YarnCats\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\Documents\Unreal Projects\YarnCats\YarnCats\Intermediate\Build\Win64\YarnCats\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Documents\Unreal Projects\YarnCats\YarnCats\Intermediate\Build\Win64\YarnCats\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\Documents\Unreal Projects\YarnCats\YarnCats\Intermediate\Build\Win64\UE4\Inc\YarnCats\CatBase.gen.cpp"
+/FI"D:\Documents\Unreal Projects\YarnCats\YarnCats\Intermediate\Build\Win64\UE4\Development\YarnCats\Definitions.YarnCats.h"
+/Fo"D:\Documents\Unreal Projects\YarnCats\YarnCats\Intermediate\Build\Win64\UE4\Development\YarnCats\CatBase.gen.cpp.obj"
 /TP
 /GR-
 /W4
