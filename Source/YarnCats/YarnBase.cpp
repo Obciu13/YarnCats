@@ -27,9 +27,12 @@ void AYarnBase::Tick(float DeltaTime)
 
 }
 
-void AYarnBase::Roll(FVector Direction, float Force)
+void AYarnBase::Roll(FVector CatDirection, float CatForce)
 {
-	GetMeshComponent()->AddImpulseAtLocation(Direction * Force, GetActorLocation());
+	PushTimer = GetWorldTimerManager().GenerateHandle(0);
+	GetWorldTimerManager().SetTimer(PushTimer, this, &AYarnBase::AddImpulse, 0.3f, false);
+	Direction = CatDirection;
+	Force = CatForce;
 }
 
 void AYarnBase::StopRolling()
@@ -38,4 +41,9 @@ void AYarnBase::StopRolling()
 	UE_LOG(LogTemp, Warning, TEXT("Static"));
 	GetMeshComponent()->SetMobility(EComponentMobility::Movable);
 	
+}
+
+void AYarnBase::AddImpulse()
+{
+	GetMeshComponent()->AddImpulseAtLocation(Direction * Force, GetActorLocation());
 }

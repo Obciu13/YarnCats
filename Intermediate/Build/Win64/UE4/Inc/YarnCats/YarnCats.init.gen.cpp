@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeYarnCats_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBDDAC2BA,
+				0x18269288,
 				0x20AE16D9,
 				METADATA_PARAMS(nullptr, 0)
 			};

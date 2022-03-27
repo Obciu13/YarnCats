@@ -271,9 +271,17 @@
 			]
 		},
 		{
-			"ShaderMapHash": "DD7B6150B1E81D082441F26196F4A6466594D9FD",
+			"ShaderMapHash": "D22E7942DBE3786EE5C21EFBAC1FC523A95523D2",
 			"Assets": [
-				"/Game/LowPoly_Cat/Materials/M_LowPoly_Cat"
+				"/Game/EF_FirstFloor/Common/MasterMaterial/Master_Props_Masked_Mat",
+				"/Game/EF_FirstFloor/Shared/TheresaRoom/Lamp_Mat",
+				"/Game/EF_FirstFloor/Shared/TheresaRoom/Lamp/Lamp_Mat"
+			]
+		},
+		{
+			"ShaderMapHash": "231F3437CC2E5C55A43C573F3574951B460110A1",
+			"Assets": [
+				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/Book/Bookstacks/NotebookRings_a_Mat"
 			]
 		},
 		{
@@ -285,11 +293,62 @@
 			]
 		},
 		{
-			"ShaderMapHash": "D22E7942DBE3786EE5C21EFBAC1FC523A95523D2",
+			"ShaderMapHash": "6BE56528D33E835D1B66F0FAF518C7E929768FFB",
 			"Assets": [
-				"/Game/EF_FirstFloor/Common/MasterMaterial/Master_Props_Masked_Mat",
-				"/Game/EF_FirstFloor/Shared/TheresaRoom/Lamp_Mat",
-				"/Game/EF_FirstFloor/Shared/TheresaRoom/Lamp/Lamp_Mat"
+				"/Game/EF_FirstFloor/Materials/FloorBottle_b_Mat",
+				"/Game/EF_FirstFloor/Common/Materials/Metal/Brass_a_Mat",
+				"/Game/EF_FirstFloor/Materials/bowl_b_mat",
+				"/Game/EF_FirstFloor/Materials/bowl_c_mat",
+				"/Game/EF_FirstFloor/Common/Materials/Cloth/Linen2_a_Mat",
+				"/Game/EF_FirstFloor/Effects/Materials/FlatSurfaces/ceiling_a_Mat_Inst",
+				"/Game/EF_FirstFloor/Common/Materials/Cloth/Linen3_a_Mat",
+				"/Game/EF_FirstFloor/Common/Materials/Metal/Copper_a_Mat",
+				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/FoldableTablePlastic_a_Mat",
+				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/ChairCushion_a_Mat",
+				"/Game/EF_FirstFloor/Materials/FloorBottle_d_Mat",
+				"/Game/EF_FirstFloor/Materials/FloorBottle_c_Mat",
+				"/Game/EF_FirstFloor/Materials/FloorBottle_a_Mat",
+				"/Game/EF_FirstFloor/Materials/Cup_c_Mat",
+				"/Game/EF_FirstFloor/Materials/Cup_b_Mat",
+				"/Game/EF_FirstFloor/Common/Materials/Glass/WM_Glass_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "6A9A286FDB58F1F49566AF1CB2053E3D27A448DD",
+			"Assets": [
+				"/Game/EF_FirstFloor/Common/MasterMaterial/Master_WorldMaterial_Mat"
+			]
+		},
+		{
+			"ShaderMapHash": "15FCD532223A698A88B53AB042C60DB46C64B008",
+			"Assets": [
+				"/Game/EF_FirstFloor/Materials/DoorWalter_a_Mat",
+				"/Game/EF_FirstFloor/Materials/DoorTheresa_a_Mat",
+				"/Game/EF_FirstFloor/Materials/BarbaraMusicBox_a_Mat",
+				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/LeatherChair_a_Mat",
+				"/Game/EF_FirstFloor/Materials/Stool_a_mat",
+				"/Game/EF_FirstFloor/Materials/pan_a_mat",
+				"/Game/EF_FirstFloor/Materials/GrandfatherClock_a_Mat",
+				"/Game/EF_FirstFloor/Materials/SalmonCans_Mat",
+				"/Game/EF_FirstFloor/Shared/Finale/Environments/Study/StudyWalls/StudyTrim_a_Mat",
+				"/Game/EF_FirstFloor/Shared/Finale/Environments/Study/StudyWalls/StudyBookcase_a_Mat",
+				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/PackingTapeGun_a_Mat",
+				"/Game/EF_FirstFloor/Materials/Barricade_mat",
+				"/Game/EF_FirstFloor/Materials/RollingLadder_a_mat",
+				"/Game/EF_FirstFloor/Materials/Oven_a_Mat",
+				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/BookTaxidermy_a_Mat",
+				"/Game/EF_FirstFloor/Shared/TheresaRoom/Wheelchair_a_Mat",
+				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/Door/Door_a_Mat",
+				"/Game/EF_FirstFloor/Materials/utensil_mat",
+				"/Game/EF_FirstFloor/Materials/Fiddle_a_Mat",
+				"/Game/EF_FirstFloor/Materials/DoorTwin_a_Mat",
+				"/Game/EF_FirstFloor/Materials/DoorMolly_a_Mat",
+				"/Game/EF_FirstFloor/Materials/DoorBarbara_a_Mat",
+				"/Game/EF_FirstFloor/Materials/CoffeeTable_a_mat",
+				"/Game/EF_FirstFloor/Shared/GenericPropsExterior/WalterMemorial/WalterMemorial_a_Mat",
+				"/Game/EF_FirstFloor/Shared/Floor4/Floor4CommonArea/SalmonCan/SalmonCan_a_Mat",
+				"/Game/EF_FirstFloor/Materials/StoveHood_a_Mat",
+				"/Game/EF_FirstFloor/Materials/Stove_a_Mat"
 			]
 		},
 		{
@@ -311,68 +370,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "6BE56528D33E835D1B66F0FAF518C7E929768FFB",
-			"Assets": [
-				"/Game/EF_FirstFloor/Common/Materials/Metal/Brass_a_Mat",
-				"/Game/EF_FirstFloor/Materials/bowl_b_mat",
-				"/Game/EF_FirstFloor/Materials/FloorBottle_b_Mat",
-				"/Game/EF_FirstFloor/Common/Materials/Cloth/Linen3_a_Mat",
-				"/Game/EF_FirstFloor/Materials/Cup_b_Mat",
-				"/Game/EF_FirstFloor/Materials/bowl_c_mat",
-				"/Game/EF_FirstFloor/Common/Materials/Metal/Copper_a_Mat",
-				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/FoldableTablePlastic_a_Mat",
-				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/ChairCushion_a_Mat",
-				"/Game/EF_FirstFloor/Common/Materials/Cloth/Linen2_a_Mat",
-				"/Game/EF_FirstFloor/Effects/Materials/FlatSurfaces/ceiling_a_Mat_Inst",
-				"/Game/EF_FirstFloor/Materials/FloorBottle_d_Mat",
-				"/Game/EF_FirstFloor/Materials/FloorBottle_c_Mat",
-				"/Game/EF_FirstFloor/Materials/FloorBottle_a_Mat",
-				"/Game/EF_FirstFloor/Materials/Cup_c_Mat",
-				"/Game/EF_FirstFloor/Common/Materials/Glass/WM_Glass_Opaque"
-			]
-		},
-		{
-			"ShaderMapHash": "6A9A286FDB58F1F49566AF1CB2053E3D27A448DD",
-			"Assets": [
-				"/Game/EF_FirstFloor/Common/MasterMaterial/Master_WorldMaterial_Mat"
-			]
-		},
-		{
 			"ShaderMapHash": "DCA1763EA194E7D0BEBC1A43977342EAC17E548D",
 			"Assets": [
 				"/Game/EF_FirstFloor/Common/MasterMaterial/MASTER_BaseColor_Mat"
-			]
-		},
-		{
-			"ShaderMapHash": "15FCD532223A698A88B53AB042C60DB46C64B008",
-			"Assets": [
-				"/Game/EF_FirstFloor/Materials/BarbaraMusicBox_a_Mat",
-				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/LeatherChair_a_Mat",
-				"/Game/EF_FirstFloor/Materials/Stool_a_mat",
-				"/Game/EF_FirstFloor/Materials/pan_a_mat",
-				"/Game/EF_FirstFloor/Materials/GrandfatherClock_a_Mat",
-				"/Game/EF_FirstFloor/Materials/DoorWalter_a_Mat",
-				"/Game/EF_FirstFloor/Materials/DoorTheresa_a_Mat",
-				"/Game/EF_FirstFloor/Materials/DoorMolly_a_Mat",
-				"/Game/EF_FirstFloor/Materials/DoorBarbara_a_Mat",
-				"/Game/EF_FirstFloor/Materials/CoffeeTable_a_mat",
-				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/BookTaxidermy_a_Mat",
-				"/Game/EF_FirstFloor/Shared/TheresaRoom/Wheelchair_a_Mat",
-				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/Door/Door_a_Mat",
-				"/Game/EF_FirstFloor/Shared/GenericPropsExterior/WalterMemorial/WalterMemorial_a_Mat",
-				"/Game/EF_FirstFloor/Shared/Floor4/Floor4CommonArea/SalmonCan/SalmonCan_a_Mat",
-				"/Game/EF_FirstFloor/Materials/StoveHood_a_Mat",
-				"/Game/EF_FirstFloor/Materials/Stove_a_Mat",
-				"/Game/EF_FirstFloor/Materials/utensil_mat",
-				"/Game/EF_FirstFloor/Materials/SalmonCans_Mat",
-				"/Game/EF_FirstFloor/Shared/Finale/Environments/Study/StudyWalls/StudyTrim_a_Mat",
-				"/Game/EF_FirstFloor/Shared/Finale/Environments/Study/StudyWalls/StudyBookcase_a_Mat",
-				"/Game/EF_FirstFloor/Materials/Fiddle_a_Mat",
-				"/Game/EF_FirstFloor/Materials/DoorTwin_a_Mat",
-				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/PackingTapeGun_a_Mat",
-				"/Game/EF_FirstFloor/Materials/RollingLadder_a_mat",
-				"/Game/EF_FirstFloor/Materials/Oven_a_Mat",
-				"/Game/EF_FirstFloor/Materials/Barricade_mat"
 			]
 		},
 		{
@@ -439,19 +439,19 @@
 			"Assets": [
 				"/Game/ModularHouses/Materials/Floor/M_Floor_A1",
 				"/Game/ModularHouses/Materials/Floor/M_Floor_C1",
-				"/Game/ModularHouses/Materials/Wall/M_Wallpaper_A2",
-				"/Game/ModularHouses/Materials/Wall/M_Stucco_Blue",
+				"/Game/ModularHouses/Materials/Generic/M_Concrete_A",
+				"/Game/ModularHouses/Materials/Floor/M_Floor_A2",
 				"/Game/ModularHouses/Materials/Wall/M_Wallpaper_B",
 				"/Game/ModularHouses/Materials/Wall/M_Wallpaper_A6",
 				"/Game/ModularHouses/Materials/Wall/M_Wallpaper_A5",
 				"/Game/ModularHouses/Materials/Wall/M_Wallpaper_A4",
+				"/Game/ModularHouses/Materials/Wall/M_Wallpaper_A2",
+				"/Game/ModularHouses/Materials/Wall/M_Stucco_Blue",
+				"/Game/ModularHouses/Materials/Generic/M_WoodFloor_Blue_A1",
 				"/Game/ModularHouses/Materials/Generic/M_WoodFloor_Blue",
 				"/Game/ModularHouses/Materials/Generic/M_Painted_Metal_A_Black",
 				"/Game/ModularHouses/Materials/Generic/M_Painted_Metal_A",
-				"/Game/ModularHouses/Materials/Generic/M_Concrete_A1",
-				"/Game/ModularHouses/Materials/Generic/M_Concrete_A",
-				"/Game/ModularHouses/Materials/Floor/M_Floor_A2",
-				"/Game/ModularHouses/Materials/Generic/M_WoodFloor_Blue_A1"
+				"/Game/ModularHouses/Materials/Generic/M_Concrete_A1"
 			]
 		},
 		{
@@ -508,17 +508,23 @@
 			]
 		},
 		{
+			"ShaderMapHash": "DD7B6150B1E81D082441F26196F4A6466594D9FD",
+			"Assets": [
+				"/Game/LowPoly_Cat/Materials/M_LowPoly_Cat"
+			]
+		},
+		{
 			"ShaderMapHash": "875D9628D1735672B99B68483AEF6BEADB8F7281",
 			"Assets": [
 				"/Game/EF_FirstFloor/Common/Materials/Metal/WM_MetalWallPaint_a_mat",
 				"/Game/EF_FirstFloor/Common/Materials/Plastic/WM_Plastic_Cream_a_Mat",
 				"/Game/EF_FirstFloor/Common/Materials/Metal/WM_MetalBasic_a_mat",
-				"/Game/EF_FirstFloor/Common/Materials/Metal/WM_BrassBasic_a_mat",
 				"/Game/EF_FirstFloor/Common/Materials/Metal/WM_MetalBasicLight_a_mat",
-				"/Game/EF_FirstFloor/Common/Materials/Metal/WM_MetalBasicDark_a_mat",
-				"/Game/EF_FirstFloor/Common/Materials/Ceramic/WM_Ceramic_d_Mat",
 				"/Game/EF_FirstFloor/Common/Materials/Plaster/WM_PlasterWall_a_Green_mat",
-				"/Game/EF_FirstFloor/Common/Materials/Plaster/WM_PlasterWall_a_mat"
+				"/Game/EF_FirstFloor/Common/Materials/Plaster/WM_PlasterWall_a_mat",
+				"/Game/EF_FirstFloor/Common/Materials/Ceramic/WM_Ceramic_d_Mat",
+				"/Game/EF_FirstFloor/Common/Materials/Metal/WM_BrassBasic_a_mat",
+				"/Game/EF_FirstFloor/Common/Materials/Metal/WM_MetalBasicDark_a_mat"
 			]
 		},
 		{
@@ -549,12 +555,6 @@
 			"ShaderMapHash": "05E35DF448F6959139AF4F6E1F7C95637489F16B",
 			"Assets": [
 				"/Game/EF_FirstFloor/Common/MasterMaterial/Master_Props_SubSurface_Mat"
-			]
-		},
-		{
-			"ShaderMapHash": "231F3437CC2E5C55A43C573F3574951B460110A1",
-			"Assets": [
-				"/Game/EF_FirstFloor/Shared/GenericPropsInterior/Book/Bookstacks/NotebookRings_a_Mat"
 			]
 		},
 		{
@@ -607,6 +607,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "58EBC93F2920E25DCCD86B1908E341F0324AC385",
+			"Assets": [
+				"/Game/EF_FirstFloor/Materials/FortuneCookieWrapper_a_Mat"
+			]
+		},
+		{
 			"ShaderMapHash": "2877A426F4600F148827A8908655EE5B492EFEC1",
 			"Assets": [
 				"/Game/EF_FirstFloor/Common/MasterMaterial/Master_BookVariety_Mat"
@@ -622,12 +628,6 @@
 			"ShaderMapHash": "F2D2162EB760A9B143D65C8BE7280DC1964FAB60",
 			"Assets": [
 				"/Game/EF_FirstFloor/Effects/Materials/FlatSurfaces/glass_a_foggy_Mat"
-			]
-		},
-		{
-			"ShaderMapHash": "58EBC93F2920E25DCCD86B1908E341F0324AC385",
-			"Assets": [
-				"/Game/EF_FirstFloor/Materials/FortuneCookieWrapper_a_Mat"
 			]
 		},
 		{

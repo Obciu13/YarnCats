@@ -130,8 +130,6 @@ void ACatBase::LookUpRate(float Value)
 void ACatBase::StartJump()
 {
 	IsJumping = true;
-//	FTimerHandle JumpHandle = GetWorldTimerManager().GenerateHandle(0);
-	//GetWorldTimerManager().SetTimer(JumpHandle, this, &ACatBase::Jump, 0.1f, false);
 	Jump();
 }
 
@@ -154,7 +152,6 @@ void ACatBase::SelectYarn()
 	FVector End = (GetActorForwardVector() * 200.f) + Start;
 	FCollisionQueryParams CollisionParams;
 
-	DrawDebugLine(GetWorld(), Start, End, FColor::Green, false, 1, 0, 1);
 
 	if (GetWorld()->LineTraceSingleByChannel(OutHit, Start, End, ECC_Visibility, CollisionParams))
 	{
@@ -186,7 +183,7 @@ void ACatBase::ReleaseSelected_Implementation()
 
 void ACatBase::IncreasePushForce()
 {
-	PushForce += 5000.0f;
+	PushForce += DeltaPushForce;
 	if (PushForce > MaxPushForce)
 	{
 		PushForce = MaxPushForce;
@@ -219,7 +216,7 @@ void ACatBase::FinishPushForward()
 		Push();
 	}
 
-	PushForce = 1000.f;
+	PushForce = 0;
 }
 
 

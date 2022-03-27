@@ -26,6 +26,14 @@ public:
 
 	void StopRolling();
 
+	void AddImpulse();
+
+	FVector Direction;
+
+	float Force;
+
+	FTimerHandle PushTimer;
+
 
 protected:
 	// Called when the game starts or when spawned

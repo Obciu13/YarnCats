@@ -240,6 +240,10 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_PushForce;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeltaPushForce_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DeltaPushForce;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaxPushForce_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_MaxPushForce;
@@ -339,6 +343,13 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACatBase_Statics::NewProp_PushForce = { "PushForce", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACatBase, PushForce), METADATA_PARAMS(Z_Construct_UClass_ACatBase_Statics::NewProp_PushForce_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACatBase_Statics::NewProp_PushForce_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACatBase_Statics::NewProp_DeltaPushForce_MetaData[] = {
+		{ "Category", "Cats" },
+		{ "ModuleRelativePath", "CatBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACatBase_Statics::NewProp_DeltaPushForce = { "DeltaPushForce", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACatBase, DeltaPushForce), METADATA_PARAMS(Z_Construct_UClass_ACatBase_Statics::NewProp_DeltaPushForce_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACatBase_Statics::NewProp_DeltaPushForce_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACatBase_Statics::NewProp_MaxPushForce_MetaData[] = {
 		{ "Category", "Cats" },
 		{ "ModuleRelativePath", "CatBase.h" },
@@ -372,6 +383,7 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_PushDirectionMode,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_SelectedYarn,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_PushForce,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_DeltaPushForce,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_MaxPushForce,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_LoadingForce,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACatBase_Statics::NewProp_ForceHandle,
@@ -403,7 +415,7 @@ void EmptyLinkFunctionForGeneratedCodeCatBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACatBase, 1988651016);
+	IMPLEMENT_CLASS(ACatBase, 3027870465);
 	template<> YARNCATS_API UClass* StaticClass<ACatBase>()
 	{
 		return ACatBase::StaticClass();
